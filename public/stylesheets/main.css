@@ -1,0 +1,246 @@
+.container4, .container3, .container2, .container1 {
+  display: flex;
+  position: relative;
+}
+
+body {
+  margin: 0px;
+  max-width: 1920px;
+  font-family: "Quicksand", sans-serif;
+}
+
+header {
+  height: 300px;
+  background: 87.4509803922%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 86%;
+}
+header p {
+  font-size: 148px;
+  color: #d5dce2;
+}
+
+main > div:nth-child(1) {
+  color: white;
+  height: 200px;
+  background: linear-gradient(to right, #39d9ff, #46a4ff 20%, #7a5dff 50%, #ca62e6 80%, #dd9fa0 99%);
+  position: relative;
+}
+main > div:nth-child(1) p:nth-child(1) {
+  top: 0px;
+  left: 175px;
+  font-size: 148px;
+  margin: 0px;
+  line-height: 42px;
+  position: absolute;
+}
+main > div:nth-child(1) p:nth-child(2) {
+  bottom: 0px;
+  left: 144px;
+  font-size: 148px;
+  margin: 0px;
+  line-height: 110px;
+  position: absolute;
+}
+main > div:nth-child(1) span {
+  font-size: 55%;
+}
+main > div:nth-child(3) {
+  color: white;
+  height: 200px;
+  background: linear-gradient(to right, #dbee70, #c6ea4b 25%, #58d55f 58%, #2b9e7c 84%, #217692 99%);
+  position: relative;
+}
+main > div:nth-child(3) p {
+  bottom: 0px;
+  left: 136px;
+  font-size: 148px;
+  margin: 0px;
+  line-height: 110px;
+  position: absolute;
+}
+main > div:nth-child(5) {
+  color: white;
+  height: 200px;
+  background: linear-gradient(to right, #ffa19a, #ff7b78 17%, #fd435f 54%, #e4437f 75%, #b44dcb 99%);
+  position: relative;
+}
+main > div:nth-child(5) p {
+  bottom: 0px;
+  left: 368px;
+  font-size: 148px;
+  margin: 0px;
+  line-height: 110px;
+  position: absolute;
+}
+main > div:nth-child(7) {
+  color: white;
+  height: 200px;
+  background: linear-gradient(to right, #fdd72e, #ffcc2a 10%, #ff9b22 48%, #ff7371 86%, #fb639f 99%);
+  position: relative;
+}
+main > div:nth-child(7) p {
+  bottom: 0px;
+  left: 44%;
+  font-size: 148px;
+  margin: 0px;
+  line-height: 110px;
+  position: absolute;
+}
+main > div:nth-child(2) {
+  height: 132px;
+  padding-top: 48px;
+}
+main .round1 {
+  border-radius: 50%;
+  background: #46a4ff;
+  width: 30px;
+  height: 30px;
+  margin: 0px auto;
+}
+main .round2 {
+  border-radius: 50%;
+  background: #7a5dff;
+  width: 30px;
+  height: 30px;
+  margin: 0px auto;
+}
+main .round3 {
+  border-radius: 50%;
+  background: #ca62e6;
+  width: 30px;
+  height: 30px;
+  margin: 0px auto;
+}
+main > div:nth-child(4) {
+  height: 184px;
+  padding-top: 46px;
+}
+main .round4 {
+  border-radius: 50%;
+  background: #c6ea4b;
+  width: 30px;
+  height: 30px;
+  margin: 0px auto;
+}
+main .round5 {
+  border-radius: 50%;
+  background: #58d55f;
+  width: 30px;
+  height: 30px;
+  margin: 0px auto;
+}
+main .round6 {
+  border-radius: 50%;
+  background: #2b9e7c;
+  width: 30px;
+  height: 30px;
+  margin: 0px auto;
+}
+main > div:nth-child(6) {
+  height: 188px;
+  padding-top: 62px;
+}
+main .round7 {
+  border-radius: 50%;
+  background: #ff7b78;
+  width: 30px;
+  height: 30px;
+  margin: 0px auto;
+}
+main .round8 {
+  border-radius: 50%;
+  background: #fd435f;
+  width: 30px;
+  height: 30px;
+  margin: 0px auto;
+}
+main .round9 {
+  border-radius: 50%;
+  background: #e4437f;
+  width: 30px;
+  height: 30px;
+  margin: 0px auto;
+}
+main > div:nth-child(8) {
+  height: 218px;
+  padding-top: 60px;
+}
+main .round10 {
+  border-radius: 50%;
+  background: #ffcc2a;
+  width: 30px;
+  height: 30px;
+  margin: 0px auto;
+}
+main .round11 {
+  border-radius: 50%;
+  background: #ff9b22;
+  width: 30px;
+  height: 30px;
+  margin: 0px auto;
+}
+main .round12 {
+  border-radius: 50%;
+  background: #ff7371;
+  width: 30px;
+  height: 30px;
+  margin: 0px auto;
+}
+
+.container1 .cont1 {
+  position: absolute;
+  margin-left: 20%;
+}
+.container1 .cont2 {
+  position: absolute;
+  margin-left: 50%;
+}
+.container1 .cont3 {
+  position: absolute;
+  margin-left: 80%;
+}
+
+.container2 .cont1 {
+  position: absolute;
+  margin-left: 25%;
+}
+.container2 .cont2 {
+  position: absolute;
+  margin-left: 58%;
+}
+.container2 .cont3 {
+  position: absolute;
+  margin-left: 84%;
+}
+
+.container3 .cont1 {
+  position: absolute;
+  margin-left: 17%;
+}
+.container3 .cont2 {
+  position: absolute;
+  margin-left: 54%;
+}
+.container3 .cont3 {
+  position: absolute;
+  margin-left: 75%;
+}
+
+.container4 .cont1 {
+  position: absolute;
+  margin-left: 10%;
+}
+.container4 .cont2 {
+  position: absolute;
+  margin-left: 48%;
+}
+.container4 .cont3 {
+  position: absolute;
+  margin-left: 86%;
+}
+
+/*# sourceMappingURL=main.css.map */
